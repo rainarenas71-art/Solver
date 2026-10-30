@@ -1,0 +1,14 @@
+{
+  "name": "mlbb-waf-solver",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "@fastify/cors": "^9.0.1",
+    "playwright": "1.47.2",
+    "better-sqlite3": "^11.3.0"
+  }
+}
